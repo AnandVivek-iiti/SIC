@@ -5,6 +5,7 @@ function Outreach() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const carouselImages = [
+
     "/director.png",
     "/sic-ppl2.png",
     "/close-sic.png",
@@ -20,52 +21,53 @@ function Outreach() {
   }
 
   const visitors = [
-    {
-      date: "Jan 15, 2026",
-      title: "Visit of DAVV students to SIC",
-      description: "Visit of DAVV students to SIC",
-      image: "/davv-students.png"
-    },
+
     {
       date: "Oct 15, 2025",
       title: "Prof Irina A. Kurzina VISIT SIC",
       description: "Professor from Tomsk state university, Russia Visit SIC",
       image: "/visit.png"
-    },
-     {
-      title: "Visit of Ms. Saumya Gupta IAS",
-      description: "Visit of Ms. Saumya Gupta IAS ,Joint secretary Technical Education, MoE , GoI",
-      image: "/saumya-gupta.png"
-    },
-    {
+    }, {
       date: "Oct 14, 2025",
       title: "Masters students from IPS academy Indore visit to SIC",
       image: "/masters-visit.png"
-    },
-    {
+    }, {
       date: "July 24, 2025",
       title: "FOREIGN ARMY OFFICERS VISIT SIC",
-      description: "As a part of the institute's 'Ek Bharat Shrestha Bharat Abhiyan.'",
+      description: "Under MCTE MHOW",
       image: "/sic-army-visit.png"
     },
     {
-      date: "December 22, 2022",
-      title: "Foreign students visit under exchange program",
-      description: "Students of JNV Ghattiya, Ujjain, visit as 'Ek Bharat Shresht Bharat Abhiyan.'",
-      image: "/sic-ppl2.png"
+      date: "June 6, 2025",
+      title: "Visit of Ms. Saumya Gupta IAS",
+      description: "Visit of Ms. Saumya Gupta IAS ,Joint secretary Technical Education, MoE , GoI",
+      image: "/saumya-gupta.png"
     },
     {
       date: "July 15, 2024",
       title: "Send off function for Ms. Mitali Dave",
       image: "/sic-ppl.png"
     },
+    {
+      date: "May 30, 2024",
+      title: "Visit of Dr. K. Sivan",
+      description: "BOG Chairman IIT Indore and Former Chairman ISRO visit to SIC",
+      image: "/outreach-sic.jpeg"
+    },
+    {
+      date: "December 22, 2022",
+      title: "Foreign students visit under exchange program",
+      description: " Ujjain, visit as 'Ek Bharat Shresht Bharat Abhiyan.'",
+      image: "/sic-ppl2.png"
+    },
+
   ]
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-white py-12 sm:py-8  border-gray-200">
-        <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+        <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Outreach Activities For School and College Students
@@ -79,7 +81,7 @@ function Outreach() {
 
       {/* Main Image Section with Carousel */}
       <section className="py-5 sm:py-7 bg-white">
-        <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+        <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="max-w-7xl mx-auto">
             {/* New flex wrapper for laptop layout */}
             <div className="flex items-center justify-center gap-2 lg:gap-4">
@@ -125,11 +127,10 @@ function Outreach() {
                     <button
                       key={index}
                       onClick={() => setCurrentImageIndex(index)}
-                      className={`w-2 h-2 rounded-full transition-all ${
-                        index === currentImageIndex
-                          ? 'bg-blue-600 w-6'
-                          : 'bg-white/70 hover:bg-white'
-                      }`}
+                      className={`w-2 h-2 rounded-full transition-all ${index === currentImageIndex
+                        ? 'bg-blue-600 w-6'
+                        : 'bg-white/70 hover:bg-white'
+                        }`}
                       aria-label={`Go to image ${index + 1}`}
                     />
                   ))}
@@ -151,15 +152,8 @@ function Outreach() {
 
       {/* SIC Visitors & Event Highlights Section */}
       <section className="py-12 sm:py-16 bg-gray-50">
-        <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              SIC Visitors & Event Highlights
-            </h2>
-            <p className="text-base sm:text-lg text-gray-600">
-              An awareness program is initiated by SIC for our SCHOOL AND COLLEGE STUDENTS.
-            </p>
-          </div>
+        <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+       
 
           {/* Events Grid */}
           <div className="max-w-6xl mx-auto space-y-6">

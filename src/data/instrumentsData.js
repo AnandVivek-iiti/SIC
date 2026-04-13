@@ -1,53 +1,46 @@
+
 export const instrumentsData = [
   // ==================== X-RAY ANALYSIS ====================
-  {
-    id: "scxrd",
-    name: "SCXRD",
-    fullName: "Single Crystal X-Ray Diffractometer",
-    category: "X-Ray",
-    model: "Agilent Technologies Super Nova System",
-    showInStatus: true,
-    status: "Operational",
-    usageCharges: {
-      internal: "₹ 1,200 per sample",
-      external: "₹ 2,500 per sample",
-      unit: "per sample",
-    },
-    features: [
-      "State of the art dual core Agilent Technologies (Oxford Diffraction) Super Nova CCD System",
-      "Access to micro-focus Cu and Mo sources which allows even small-size crystals data collection",
-      "Oxford Cryosystems which enable temperature range from 90 to 400K",
-      "High-definition microscopes for the separation and mounting of crystals",
-      "Dual wavelength capability (Cu Kα and Mo Kα)",
-      "CCD detector for high-sensitivity data collection",
-    ],
-    applications: [
-      "Crystal screening and mounting, including air-sensitive samples",
-      "Diffraction data collection under various conditions, including temperatures as low as 90 K",
-      "Structure solution, refinement, and interpretation up to publication level",
-      "Cambridge Structure Database searching",
-      "Structural evaluation of compounds",
-      "Lattice information and unit cell determination",
-      "X-ray crystallography of proteins and small molecules",
-      "Polymorphism and co-crystal studies",
-    ],
-    handledBy: "Mr. Kinny Pandey",
-    location: " SC-XRD lab",
-    email: "kinny@iiti.ac.in",
-    images: [
-      "/assets/instruments/X-Ray/SCXRD/xs1.png",
-      "/assets/instruments/X-Ray/SCXRD/xs3.png",
-      "/assets/instruments/X-Ray/SCXRD/xs4.png",
-      "/assets/instruments/X-Ray/SCXRD/xs5.png",
-      "/assets/instruments/X-Ray/SCXRD/xs6.png",
-      "/assets/instruments/X-Ray/SCXRD/xs7.png",
-      "/assets/instruments/X-Ray/SCXRD/xs8.png",
-      "/assets/instruments/X-Ray/SCXRD/xs9.png",
-      "/assets/instruments/X-Ray/SCXRD/xs10.png",
-      "/assets/instruments/X-Ray/SCXRD/xs12.png",
-      "/assets/instruments/X-Ray/SCXRD/xs11.png",
-    ],
-  },
+  // {
+  //   id: "scxrd",
+  //   name: "SCXRD",
+  //   fullName: "Single Crystal X-Ray Diffractometer",
+  //   category: "X-Ray",
+  //   model: "Agilent Technologies Super Nova System",
+  //   showInStatus: true,
+  //   status: "Operational",
+  //   usageCharges: {
+  //     internal: "₹ 1,200 per sample",
+  //     external: "₹ 2,500 per sample",
+  //     unit: "per sample",
+  //   },
+  //   features: [
+  //     "State of the art dual core Agilent Technologies (Oxford Diffraction) Super Nova CCD System",
+  //     "Access to micro-focus Cu and Mo sources which allows even small-size crystals data collection",
+  //     "Oxford Cryosystems which enable temperature range from 90 to 400K",
+  //     "High-definition microscopes for the separation and mounting of crystals",
+  //     "Dual wavelength capability (Cu Kα and Mo Kα)",
+  //     "CCD detector for high-sensitivity data collection",
+  //   ],
+  //   applications: [
+  //     "Crystal screening and mounting, including air-sensitive samples",
+  //     "Diffraction data collection under various conditions, including temperatures as low as 90 K",
+  //     "Structure solution, refinement, and interpretation up to publication level",
+  //     "Cambridge Structure Database searching",
+  //     "Structural evaluation of compounds",
+  //     "Lattice information and unit cell determination",
+  //     "X-ray crystallography of proteins and small molecules",
+  //     "Polymorphism and co-crystal studies",
+  //   ],
+  //   handledBy: "Mr. Kinny Pandey",
+  //   location: " SC-XRD lab",
+  //   email: "kinny@iiti.ac.in",
+  //   images: [
+  //     "/assets/instruments/X-Ray/SCXRD/SC-XRD.jpg",
+  //     "/assets/instruments/X-Ray/SCXRD/SC-XRD 2.jpg",
+  //     "/assets/instruments/X-Ray/SCXRD/SC-XRD 1.jpg",
+  //   ],
+  // },
 
   {
     id: "eds-edx",
@@ -56,11 +49,11 @@ export const instrumentsData = [
     category: "X-Ray",
     model: "Oxford X-MAX 20",
     showInStatus: true,
-    status: "Under Maintenance",
+    status: "Operational",
     usageCharges: {
-      internal: "₹ 800 per hour",
-      external: "₹ 1,800 per hour",
-      unit: "per hour",
+      internal: "₹ 2,000 per sample",
+      external: "₹ 3,500 per sample",
+      unit: "per sample",
     },
     features: [
       "Integrated with SEM, TEM, or FIB systems",
@@ -102,11 +95,11 @@ export const instrumentsData = [
     category: "X-Ray",
     model: "Gemini 360",
     showInStatus: true,
-    status: "Not Working",
+    status: "Operational",
     usageCharges: {
-      internal: "₹ 600 per hour",
-      external: "₹ 1,400 per hour",
-      unit: "per hour",
+      internal: "₹ 2,000 per sample",
+      external: "₹ 4,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Captures high-energy electrons reflected or backscattered from the sample.",
@@ -141,9 +134,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 2,000 per sample",
+      unit: "per sample",
     },
     features: [
       "GEMINI Technology with high efficiency in-lens detector",
@@ -179,9 +172,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,800 per hour",
-      external: "₹ 3,500 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 2,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Next-generation GEMINI optics",
@@ -213,9 +206,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,200 per hour",
-      external: "₹ 2,500 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 2,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Atomic-scale resolution imaging",
@@ -231,7 +224,12 @@ export const instrumentsData = [
     handledBy: "Dr. Ravinder  ",
     email: "ravinderk@iiti.ac.in",
     position: "Junior Technical Superintendent, SIC",
-    images: ["/assets/instruments/Microscopy/AFM/ma1.png"],
+    images: [
+      "/assets/instruments/Microscopy/AFM/AFM 1.jpg",
+      "/assets/instruments/Microscopy/AFM/AFM 2.jpg",
+      "/assets/instruments/Microscopy/AFM/AFM 3.jpg",
+      "/assets/instruments/Microscopy/AFM/AFM 4.jpg",
+    ],
   },
 
   {
@@ -243,9 +241,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,000 per hour",
-      external: "₹ 2,200 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 1,500 per sample",
+      unit: "per sample",
     },
     features: [
       "High-resolution 3D imaging",
@@ -262,6 +260,8 @@ export const instrumentsData = [
     email: "ravinderk@iiti.ac.in",
     position: "Junior Technical Superintendent, SIC",
     images: [
+      "/assets/instruments/Microscopy/CLSM/CLSM 1.jpg",
+      "/assets/instruments/Microscopy/CLSM/CLSM 2.jpg",
       "/assets/instruments/Microscopy/CLSM/mc1.jpeg",
     ],
   },
@@ -276,9 +276,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,000 per hour",
-      external: "₹ 2,200 per hour",
-      unit: "per hour",
+      internal: "₹ 500 per sample",
+      external: "₹ 800 per sample",
+      unit: "per sample",
     },
     features: [
       "Magnet: 11.764 Tesla (Superconducting),",
@@ -295,9 +295,7 @@ export const instrumentsData = [
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
     location: "NMR lab",
-    images: [
-      "/assets/instruments/Spectroscopy/NMR-500/snmr500_1.jpeg",
-    ],
+    images: ["/assets/instruments/Spectroscopy/NMR-500/snmr500_1.jpeg"],
   },
 
   {
@@ -309,9 +307,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 800 per hour",
-      external: "₹ 1,800 per hour",
-      unit: "per hour",
+      internal: "₹ 500 per sample",
+      external: "₹ 800 per sample",
+      unit: "per sample",
     },
     features: [
       "Magnet: 8.96 Tesla (Superconducting),",
@@ -325,9 +323,7 @@ export const instrumentsData = [
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
     location: "NMR lab",
-    images: [
-      "/assets/instruments/Spectroscopy/NMR-400/snmr400_1.jpeg",
-    ],
+    images: ["/assets/instruments/Spectroscopy/NMR-400/snmr400_1.jpeg"],
   },
 
   {
@@ -339,8 +335,8 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 400 per sample",
-      external: "₹ 900 per sample",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
       unit: "per sample",
     },
     features: [
@@ -366,9 +362,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 700 per hour",
-      external: "₹ 1,600 per hour",
-      unit: "per hour",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Cell holder with facility for recirculating liquid temperature control.",
@@ -384,10 +380,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
-    images: [
-      "/assets/instruments/Spectroscopy/TCSPC/s_tcs1.png",
-      "/assets/instruments/Spectroscopy/TCSPC/s_tcs2.png",
-    ],
+    images: ["/assets/instruments/Spectroscopy/TCSPC/TCSPC.jpg"],
   },
 
   {
@@ -399,9 +392,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 900 per hour",
-      external: "₹ 2,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 2,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Measurement range from 163–1100 nm with high S/N ratio",
@@ -429,7 +422,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
-    images: ["/assets/instruments/Spectroscopy/CD/s_cd.png"],
+    images: ["/assets/instruments/Spectroscopy/CD/CD.jpeg"],
   },
 
   {
@@ -441,8 +434,8 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 300 per sample",
-      external: "₹ 700 per sample",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
       unit: "per sample",
     },
     features: [
@@ -468,8 +461,7 @@ export const instrumentsData = [
     handledBy: "Mr. Ghanashyam Bhavsar",
     email: "ghanashyam@iiti.ac.in",
     images: [
-      "/assets/instruments/Spectroscopy/UV-Visible-Spectrometer/s_uvspe1.png",
-      "/assets/instruments/Spectroscopy/UV-Visible-Spectrometer/s_uvspe2.png",
+      "/assets/instruments/Spectroscopy/UV-Visible-Spectrometer/UV VIS SPECTROMETER.jpg",
     ],
   },
 
@@ -483,7 +475,7 @@ export const instrumentsData = [
     status: "Operational",
     usageCharges: {
       internal: "₹ 500 per sample",
-      external: "₹ 1,100 per sample",
+      external: "₹ 1,000 per sample",
       unit: "per sample",
     },
     features: [
@@ -502,10 +494,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Ghanashyam Bhavsar",
     email: "ghanashyam@iiti.ac.in",
-    images: [
-      "/assets/instruments/Spectroscopy/UV-VIS-NIR/s_uv_nir1.png",
-      "/assets/instruments/Spectroscopy/UV-VIS-NIR/s_uv_nir2.png",
-    ],
+    images: ["/assets/instruments/Spectroscopy/UV-VIS-NIR/UV VIS NIR.jpg"],
   },
 
   {
@@ -517,9 +506,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 600 per hour",
-      external: "₹ 1,400 per hour",
-      unit: "per hour",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Compact single-module high-sensitivity spectrofluorometer",
@@ -545,8 +534,7 @@ export const instrumentsData = [
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
     images: [
-      "/assets/instruments/Spectroscopy/Spectrofluorometer/s_sflu1.png",
-      "/assets/instruments/Spectroscopy/Spectrofluorometer/s_sflu2.png",
+      "/assets/instruments/Spectroscopy/Spectrofluorometer/FLUORIMETER.jpg",
     ],
   },
 
@@ -561,7 +549,7 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 600 per sample",
+      internal: "₹ 1,000 per sample",
       external: "₹ 1,500 per sample",
       unit: "per sample",
     },
@@ -604,8 +592,8 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 500 per sample",
-      external: "₹ 1,200 per sample",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 1,500 per sample",
       unit: "per sample",
     },
     description:
@@ -647,21 +635,19 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 700 per sample",
-      external: "₹ 1,600 per sample",
+      internal: "₹ 2,000 per sample",
+      external: "₹ 5,000 per sample",
       unit: "per sample",
     },
     features: [
       "Versatile system for separation and identification of non-polar and mid-polar compounds",
-      "Supports three configurations: GC-MS, GC-TCD, GC-FID",
-      "Electron Ionization (EI) and Chemical Ionization (CI) with positive and negative ion modes",
+
+      "Electron Ionization (EI) with positive and negative ion modes",
       "Helium carrier gas for GC-MS operation",
       "High sensitivity detection down to PPM levels",
-      "Mass range: 10–1000 Da",
+      "Mass range: 10–600 Da",
       "NIST mass spectral library for compound identification",
-      "GC-TCD suitable for gas analysis (H₂, N₂, CO, CO₂, CH₄)",
-      "GC-FID suitable for hydrocarbons and volatile organic compounds",
-    ],
+       ],
     sampleRequirements: [
       "Sample quantity: 20 mg",
       "Must be soluble in methanol",
@@ -678,9 +664,7 @@ export const instrumentsData = [
     handledBy: "Mr. Ghanashyam Bhavsar",
     location: "LC-MS lab",
     email: "ghanashyam@iiti.ac.in",
-    images: [
-      "/assets/instruments/Chromatography/GC-MS/chro_gc1.jpeg",
-    ],
+    images: ["/assets/instruments/Chromatography/GC-MS/chro_gc1.jpeg"],
   },
   // ==================== THERMAL ANALYSIS ====================
   {
@@ -692,9 +676,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 2,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Measures change in sample weight during heating, cooling, or isothermal conditions",
@@ -720,9 +704,7 @@ export const instrumentsData = [
     email: "atul.singh@iiti.ac.in",
     position: "Junior Technical Assistant, SIC",
 
-    images: [
-      "/assets/instruments/Thermal-Analysis/TGA/ta_t1.jpeg",
-    ],
+    images: ["/assets/instruments/Thermal-Analysis/TGA/ta_t1.jpeg"],
   },
   {
     id: "dsc",
@@ -733,9 +715,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 3,000 per sample",
+      external: "₹ 5,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Determines phase transitions including melting, crystallization, crystal-to-crystal transitions, and liquid crystal transitions",
@@ -755,13 +737,11 @@ export const instrumentsData = [
     email: "atul.singh@iiti.ac.in",
     position: "Junior Technical Assistant, SIC",
 
-    images: [
-      "/assets/instruments/Thermal-Analysis/DSC/ta_d1.jpeg",
-    ],
+    images: ["/assets/instruments/Thermal-Analysis/DSC/ta_d1.jpeg"],
   },
   // ==================== SPECIALIZED EQUIPMENT ====================
   {
-    id: "bet-surface-area",
+    id: "bet",
     name: "BET Surface Area Analyzer",
     fullName: "BET Surface Area Analyzer (Autosorb iQ2)",
     category: "Surface-Analysis",
@@ -769,9 +749,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 5,000 per sample",
+      external: "₹ 10,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Physorption: Accurate N₂ BET surface area measurements from 0.01 m²/g upwards at liquid nitrogen temperature",
@@ -797,9 +777,8 @@ export const instrumentsData = [
     position: "Junior Technical Assistant, SIC",
 
     images: [
-      "/bet.png",
       "/assets/instruments/BET-Surface-Analyzer/bet1.jpeg",
-
+      "/assets/instruments/BET-Surface-Analyzer/bet1.png",
     ],
   },
 
@@ -812,9 +791,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 200 per sample",
+      external: "₹ 1,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Requires 5.5–6 bar compressed gas for accurate pressure measurement and sealing up to 20 bar",
@@ -837,10 +816,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
-    images: [
-      "/assets/instruments/Microwave-Reactor/mreac1.png",
-      "/assets/instruments/Microwave-Reactor/mreac2.png",
-    ],
+    images: ["/assets/instruments/Microwave-Reactor/MICROWAVE.jpg"],
   },
   {
     id: "element-analyzer",
@@ -851,11 +827,11 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,000 per sample",
+      external: "₹ 2,000 per sample",
+      unit: "per sample",
     },
-    features: [
+     features: [
       "The main instrument for Thermo Fisher scientific FLASH 2000 (formerly the Flash EA1112) is the CHNS-O Elemental Analyzer.",
       "It was designed to operate on the “Dumas method” principle, which calls for “flash combustion” to completely and instantly oxidizing the sample.",
       "The combustion products are separated by a chromatography before being detected by a thermal conductivity detector (T.C.D. ), which produces an output signal corresponding to the concentration of each component in the mixture.",
@@ -872,8 +848,7 @@ export const instrumentsData = [
     email: "atul.singh@iiti.ac.in",
     position: "Junior Technical Assistant, SIC",
     images: [
-      "/assets/instruments/Element-Analyzer/elean1.png",
-      "/assets/instruments/Element-Analyzer/elean2.png",
+      "/assets/instruments/Element-Analyzer/elean.png",
     ],
   },
   {
@@ -926,18 +901,17 @@ export const instrumentsData = [
     images: ["/assets/instruments/MilliQ-DI-Water/mdw1.png"],
   },
   {
-
-  id: "lyophilizer-labconco",
-  name: "Lyophilizer - Labconco",
-  fullName: "Freeze Dryer (Labconco Lyophilizer)",
-  category: "Freeze Drying",
+    id: "lyophilizer-labconco",
+    name: "Lyophilizer - Labconco",
+    fullName: "Freeze Dryer (Labconco Lyophilizer)",
+    category: "Freeze Drying",
     model: "LABCONCO Lyophilizer",
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 750 per sample",
+      external: "₹ 1,500 per sample",
+      unit: "per sample",
     },
     features: [
       "Vacuum break valve prevents oil backstreaming by bleeding air into the system during shutdown",
@@ -970,37 +944,35 @@ export const instrumentsData = [
     ],
   },
   {
-  id: "lyophilizer-virtis",
-  name: "Lyophilizer - VirTis",
-  fullName: "Freeze Dryer (VirTis Lyophilizer)",
-  category: "Freeze Drying",
-  model: "VirTis Lyophilizer",
-  showInStatus: true,
-  status: "Operational",
-  usageCharges: {
-    internal: "₹ 1,500 per hour",
-    external: "₹ 3,000 per hour",
-    unit: "per hour",
+    id: "lyophilizer-virtis",
+    name: "Lyophilizer - VirTis",
+    fullName: "Freeze Dryer (VirTis Lyophilizer)",
+    category: "Freeze Drying",
+    model: "VirTis Lyophilizer",
+    showInStatus: true,
+    status: "Operational",
+    usageCharges: {
+      internal: "₹ 750 per sample",
+      external: "₹ 1,500 per sample",
+      unit: "per sample",
+    },
+    features: [
+      "Advanced freeze-drying system for sensitive biological and chemical samples",
+      "Efficient sublimation under controlled vacuum",
+      "Uniform temperature distribution for consistent drying",
+      "Suitable for pharmaceuticals and research applications",
+    ],
+    applications: [
+      "Freeze drying of biological samples and pharmaceuticals",
+      "Long-term preservation of sensitive materials",
+      "Food and chemical sample dehydration",
+      "Stabilization of compounds for storage and transport",
+    ],
+    handledBy: "Mr. Atul Singh",
+    email: "atul.singh@iiti.ac.in",
+    position: "Junior Technical Assistant, SIC",
+    images: ["/assets/instruments/Lyophilizer/VirTis.jpeg"],
   },
-  features: [
-    "Advanced freeze-drying system for sensitive biological and chemical samples",
-    "Efficient sublimation under controlled vacuum",
-    "Uniform temperature distribution for consistent drying",
-    "Suitable for pharmaceuticals and research applications",
-  ],
-  applications: [
-    "Freeze drying of biological samples and pharmaceuticals",
-    "Long-term preservation of sensitive materials",
-    "Food and chemical sample dehydration",
-    "Stabilization of compounds for storage and transport",
-  ],
-  handledBy: "Mr. Atul Singh",
-  email: "atul.singh@iiti.ac.in",
-  position: "Junior Technical Assistant, SIC",
-  images: [
-    "/assets/instruments/Lyophilizer/VirTis.jpeg"
-  ],
-},
   {
     id: "polarimeter",
     name: "Polarimeter",
@@ -1010,9 +982,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 500 per hour",
-      external: "₹ 1,200 per hour",
-      unit: "per hour",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
+      unit: "per sample",
     },
 
     features: [
@@ -1035,7 +1007,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
-    images: ["/assets/instruments/polarimeter-image.png"],
+    images: ["/assets/instruments/POLARIMETER.jpg"],
   },
 
   {
@@ -1047,9 +1019,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 600 per hour",
-      external: "₹ 1,500 per hour",
-      unit: "per hour",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
+      unit: "per sample",
     },
 
     features: [
@@ -1072,7 +1044,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
-    images: "/assets/instruments/rheometer-image.png",
+    images: ["/assets/instruments/RHEOMETER.jpg"],
   },
   {
     id: "liquid-nitrogen-plant",
@@ -1083,13 +1055,13 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 31 per litre",
+      external: "₹ 37 per litre",
+      unit: "per litre",
     },
     make: "StirLIN",
     features: [
-      "Produces liquid nitrogen at ~10 L/hour capacity",
+      "Produces liquid nitrogen at ~10 L/sample capacity",
       "Fully automatic compact StirLIN system — plug-and-produce solution",
       "Dispenses liquid via flexible hose & valve",
       "Reduces dependency on bulk LN₂ supply logistics",
@@ -1107,10 +1079,7 @@ export const instrumentsData = [
     ],
     handledBy: "Mr. Kinny Pandey",
     email: "kinny@iiti.ac.in",
-    images: [
-      "/assets/instruments/LN2-plant/ln1.png",
-      "/assets/instruments/LN2-plant/ln2.png",
-    ],
+    images: ["/assets/instruments/LN2-Plant/LIQUID NITROGEN.jpeg"],
   },
   // ==================== CENTRE OF EXCELLENCE (ACR INITIATIVE) ====================
   {
@@ -1122,9 +1091,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,500 per sample",
+      external: "₹ 3,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Inductively Coupled Plasma Optical Emission spectroscopy (ICP-OES) is an analytical technique used to determine how much of certain elements are in a sample.",
@@ -1154,9 +1123,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 100 per 10 liters",
-      external: "₹ 300 per 10 liters",
-      unit: "per 10 liters",
+      internal: "₹ 500 per sample",
+      external: "₹ 1,000 per sample",
+      unit: "per sample",
     },
 
     features: [
@@ -1188,9 +1157,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,500 per sample",
+      external: "₹ 3,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Flash Point of a flammable liquid is the lowest temperature at which vapours of that liquid will ignite when close to an ignition source.",
@@ -1218,26 +1187,26 @@ export const instrumentsData = [
   {
     id: "ak-viscometer",
     name: "AK Viscometer",
-    fullName: "Kinematic Viscosity Measurement",
+    fullName: "Brookfield Viscosity Measurement",
     category: "Centre of Excellence",
     model: "Anton Paar – SVM 1101 Sample Fill",
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,500 per sample",
+      external: "₹ 3,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Viscosity quantifies the internal frictional force between adjacent layers of fluid that are in relative motion.",
-      "Kinematic Viscosity (ν) is a measure of a fluid’s resistance to flow under the influence of gravity.",
+      "Kinematic Viscosity (ν) is a measure of a fluid's resistance to flow under the influence of gravity.",
       "It can be obtained by dividing the Dynamic (Absolute) Viscosity (μ) of a fluid with the fluid mass Density (ρ).",
       "The theoretical unit of Kinematic Viscosity is m2/s or Stoke (St).",
     ],
     applications: [
       "Automatic Kinematic Viscometer determine Kinematic Viscosity (range: 0.3 mm2/s to 1000 mm2/s) and Density (range: 0 g/cm3 to 3 g/cm3) in single run at a particular temperature (range: +15 °C to +100 °C) ",
       "The analysis is carried out using standard methods ASTM D4052 and ISO 12185",
-      "Kinematic Viscosity is a crucial property used across various industries to understand and predict fluid behavior. It’s particularly important in applications where fluids are subjected to gravity, such as in pipeline flow, hydraulic systems and lubrication.",
+      "Kinematic Viscosity is a crucial property used across various industries to understand and predict fluid behavior. It's particularly important in applications where fluids are subjected to gravity, such as in pipeline flow, hydraulic systems and lubrication.",
     ],
     handledBy: "Mr. Kunal Bhadra",
     email: "kunalb@iiti.ac.in",
@@ -1250,16 +1219,16 @@ export const instrumentsData = [
 
   {
     id: "b-viscometer",
-    name: "B Viscometer",
-    fullName: "Brookfield Viscosity Measurement",
+    name: "Brookfield Viscometer",
+    fullName: "Dynamic Viscosity Measurement",
     category: "Centre of Excellence",
     model: "AMETEK DV2T LV",
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,500 per sample",
+      external: "₹ 3,000 per sample",
+      unit: "per sample",
     },
     features: [
       "The Brookfield Viscometer measures fluid viscosity by measuring the force to turn the spindle in the solution at a given shear rate.",
@@ -1290,9 +1259,9 @@ export const instrumentsData = [
     showInStatus: true,
     status: "Operational",
     usageCharges: {
-      internal: "₹ 1,500 per hour",
-      external: "₹ 3,000 per hour",
-      unit: "per hour",
+      internal: "₹ 1,500 per sample",
+      external: "₹ 3,000 per sample",
+      unit: "per sample",
     },
     features: [
       "Millipore contamination analysis kit consists of assorted Millipore filtration products suited for contamination measurement control.",
@@ -1359,7 +1328,8 @@ export const categoryDescriptions = {
   "Chemical Synthesis": "Equipment for accelerated and controlled synthesis",
   "Elemental Analysis": "Quantitative determination of elemental composition",
   "Water Purification": "High-purity water production systems",
-  "Freeze Drying": "Freeze drying (lyophilization) systems for sample preservation and dehydration",
+  "Freeze Drying":
+    "Freeze drying (lyophilization) systems for sample preservation and dehydration",
   "Optical Analysis": "Optical property measurement instruments",
   "Material Testing": "Rheological and mechanical property analysis",
   Facility: "Core facility infrastructure and utilities",

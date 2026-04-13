@@ -15,7 +15,7 @@ export default function AboutPage() {
     "SIC has been operating with 32 instruments funded by the institute exclusively and recording data for all departments of the institute.",
     "SIC is continuously supporting academic programs including Ph.D., Masters & Bachelor of technology students by giving hands-on training with the instruments by providing them the opportunity to analyze their own samples.",
     "SIC so far supported various projects funded by external agencies total valued above INR 48.0 crores.",
-    "The center has been supporting various industrial organizations across India to develop their bestselling products using SIC sample testing facility.",
+    "The centre has been supporting various industrial organizations across India to develop their bestselling products using SIC sample testing facility.",
     "SIC is playing a very important role in developing curiosity towards science in school students, under grads & post-grads students by giving them live demos and training on the instruments."
   ];
 
@@ -31,50 +31,25 @@ export default function AboutPage() {
      {/* Hero Section */}
       <section className="relative h-auto md:h-96 bg-gradient-to-r from-blue-900 to-blue-700">
         <div className="absolute inset-0 bg-cover opacity-20" style={{ backgroundImage: 'url("/sic.png")' }} />
-        <div className="relative container mx-auto px-6 sm:px-8 lg:px-12 xl:px-28 py-12 md:py-0 md:h-full flex flex-col md:flex-row md:items-center justify-between gap-8">
-          <div className="max-w-2xl">
+    <div className="relative container mx-auto px-6 sm:px-8 lg:px-12 xl:px-28 py-12 md:py-0 md:h-full flex items-center justify-center text-center">
+  <div className="max-w-2xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
               About SIC
             </h1>
             <p className="text-xl text-blue-100">A National Facility of IIT Indore</p>
           </div>
-          <div className="flex flex-col gap-3 md:items-end">
-            <span className="text-blue-100 font-medium text-sm">Quick Navigation</span>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                to="/faculty"
-                className="group px-5 py-2.5 bg-white hover:bg-blue-600 text-blue-700 hover:text-white rounded-md text-sm font-medium transition-all shadow-md flex items-center gap-2"
-              >
-                Faculty
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-              <Link
-                to="/team"
-                className="group px-5 py-2.5 bg-white hover:bg-blue-600 text-blue-700 hover:text-white rounded-md text-sm font-medium transition-all shadow-md flex items-center gap-2"
-              >
-                SIC Team
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-              <Link
-                to="/outreach"
-                className="group px-5 py-2.5 bg-white hover:bg-blue-600 text-blue-700 hover:text-white rounded-md text-sm font-medium transition-all shadow-md flex items-center gap-2"
-              >
-                Outreach
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </div>
-          </div>
+
         </div>
       </section>
 
-      
+
       {/* Main Content */}
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-28 py-16">
-        
+
         {/* Introduction */}
         <div className="mb-16">
           <p className="text-gray-700 leading-relaxed text-lg mb-4">
-            The Sophisticated Instrumentation Center (SIC) was established in September 2011 with institute funding to expedite the research program at IIT Indore. SIC has now emerged as one of the first such centers in the country, providing extensive analytical instrument support to the users of the research fraternity across the country.
+            The Sophisticated Instrumentation Centre (SIC) was established in September 2011 with institute funding to expedite the research program at IIT Indore. SIC has now emerged as one of the first such centres in the country, providing extensive analytical instrument support to the users of the research fraternity across the country.
           </p>
           <p className="text-gray-700 leading-relaxed text-lg">
             A major advantage of SIC is its accessibility to the students within the institute as well as to other institutes and industries. A very healthy ratio of students to the time availability on instruments and the quick analysis of external samples makes it a very useful facility.
